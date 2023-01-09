@@ -13,3 +13,35 @@ class Person{
 }
 
 let p = Person(name: "AA", age: 20)
+p.name
+p.age
+p.increaseAge()
+p.age
+let q = p
+q.increaseAge()
+q.age
+p.age
+
+if p === q{
+    "p q point to same memory"
+}else{
+    "p q dont point to same memory"
+}
+
+class Per{
+    private(set) var age: Int
+    
+    init(age:Int) {
+        self.age = age
+    }
+    
+    func changeAge() {
+        self.age += 10
+    }
+}
+
+let pp = Per(age: 20)
+
+pp.age
+pp.changeAge()
+pp.age
