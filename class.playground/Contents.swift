@@ -45,3 +45,16 @@ let pp = Per(age: 20)
 pp.age
 pp.changeAge()
 pp.age
+
+class vehicle{
+    func vrom() {
+        "Vroom Vroom"
+    }
+}
+
+class car: vehicle{
+    
+}
+
+let cr = car()
+cr.vrom()
