@@ -58,3 +58,67 @@ class car: vehicle{
 
 let cr = car()
 cr.vrom()
+
+
+class Tesla{
+    let manufacture = "Tesla"
+    let model: String
+    let year: Int
+    
+    init(){
+        self.model = "X"
+        self.year = 2023
+    }
+    
+    init(model:String, year:Int){
+        self.model = model
+        self.year = year
+    }
+    
+//    init(model:String) {
+//        self.model = model
+//        self.year = 2023
+//    }
+    convenience init(model:String){
+        self.init(model: model, year: 2023)
+    }
+    convenience init(year:Int){
+        self.init(model: "X", year: year)
+    }
+}
+
+class TeslaModelY: Tesla{
+    override init(model:String, year:Int){
+        super.init(model: model, year: year)
+    }
+    
+     init(model: String) {
+        super.init(model: model, year: 2929)
+    }
+}
+
+let a = TeslaModelY(model: "X")
+
+class aa{
+    
+    init() {
+        "Initialized"
+    }
+    func some(){
+        "som3thing"
+    }
+    
+    deinit {
+        "deinitialized"
+    }
+}
+
+let clo = {
+    let ssa = aa()
+    ssa.some()
+}
+
+clo()
+
+
+
