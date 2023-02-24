@@ -55,6 +55,10 @@ protocol hasName{
 struct dog: hasName{
     let name: String
     var age: Int
+    init(name: String, age: Int) {
+        self.name = name
+        self.age = age
+    }
 }
 
 extension hasName{
@@ -82,3 +86,12 @@ func describe(obj:Any){
 }
 
 describe(obj: jimmy)
+
+func increaseSpeed(obj:Any){
+    if var vehicle = obj as? dog{
+        vehicle.addAge()
+    }
+}
+
+increaseSpeed(obj: jimmy)
+jimmy.age
