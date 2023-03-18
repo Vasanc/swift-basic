@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		89155356296929E3000F74B1 /* func.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = func.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		892F83CF29C2E21F001927B3 /* optionals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = optionals.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		892F83D029C2F509001927B3 /* errorHandling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = errorHandling.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		893245F5297436B600CAAF50 /* protocols.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = protocols.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		89368A94299B48F60040BF67 /* generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = generics.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		893EB4072965E316002122FC /* Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Variables.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -16,7 +17,11 @@
 		89505F72296C5F0700959418 /* class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = class.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		89862426296AFFFA002D51D6 /* Structure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Structure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		899A26C3299B416900C78137 /* extensions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = extensions.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		89A53BEF29C6290A0097EBEE /* concurrency and async.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "concurrency and async.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		89A6B2DA296B1140001D7241 /* enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = enum.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		89D1A06729C5D23F004D1BAF /* collections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = collections.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		89D1A06829C5FF7B004D1BAF /* equality and hashing.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "equality and hashing.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		89D1A06929C623C1004D1BAF /* custom operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "custom operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		89EFBA77296ACFB200BDC983 /* closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = closure.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
@@ -24,6 +29,11 @@
 		893EB4002965E2F0002122FC = {
 			isa = PBXGroup;
 			children = (
+				89A53BEF29C6290A0097EBEE /* concurrency and async.playground */,
+				89D1A06929C623C1004D1BAF /* custom operators.playground */,
+				89D1A06829C5FF7B004D1BAF /* equality and hashing.playground */,
+				89D1A06729C5D23F004D1BAF /* collections.playground */,
+				892F83D029C2F509001927B3 /* errorHandling.playground */,
 				892F83CF29C2E21F001927B3 /* optionals.playground */,
 				89368A94299B48F60040BF67 /* generics.playground */,
 				899A26C3299B416900C78137 /* extensions.playground */,
